@@ -4,6 +4,11 @@
 
 Dinic::Dinic()
 {
+
+}
+
+Dinic::Dinic(string path)
+{
 }
 
 bool Dinic::countLayer(int s, int t)
