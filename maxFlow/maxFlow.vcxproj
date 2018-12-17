@@ -115,6 +115,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Dinic.cpp" />
+    <ClCompile Include="EdmondsKarp.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ex.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dinic.h" />
+    <ClInclude Include="EdmondsKarp.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
